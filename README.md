@@ -10,12 +10,3 @@ To blink different colors of RGB sensor by push button count
 3.	Push Button
 4.	Jumper Wire
 5.	USB cable
-
-
-
-
-## REFERENCES
-
-LiquidcrystalI2C- library : http://easycoding.tn/index.php/resources/
-
-LiquidcrystalI2C- code : http://easycoding.tn/tuniot/demos/code/
