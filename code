@@ -4,46 +4,48 @@ void setup(){
   pinMode(D1,OUTPUT);
   pinMode(D2,OUTPUT);
   pinMode(D3,OUTPUT);
-  pinMode(D5,INPUT);
+  pinMode(D5,INPUT); // Digital pin for push button
 }
 int x,t=0;
-void loop(){
+void loop()
+{
 x=int state();
   if (x==1)
   {
-    t++;
+    t++; // count starts when buttton is pressed
     if(t>4)
     {
       t=1;
     }
-     if(t==1)
+     if(t==1) // on 1st press RED light blinks
     {
       digitalWrite(D1,HIGH);
       digitalWrite(D2,LOW);
       digitalWrite(D3,LOW);
       delay(100);
     }
-    if(t==2)
+    if(t==2)  // on 2nd press GREEN light blinks
     {
       digitalWrite(D2,HIGH);
       digitalWrite(D1,LOW);
       digitalWrite(D3,LOW);
       delay(100);
     }
-    if(t==3)
+    if(t==3)  // on 3rd press BLUE light blinks
     {
       digitalWrite(D3,HIGH);
       digitalWrite(D1,LOW);
       digitalWrite(D2,LOW);
       delay(100);
     }
-    if(t==4)
+    if(t==4)  // on 4th press no light blinks
     {
       digitalWrite(D1,LOW);
       digitalWrite(D2,LOW);
       digitalWrite(D3,LOW);
       delay(100);
     }
+}
 }
 int state()
 {
