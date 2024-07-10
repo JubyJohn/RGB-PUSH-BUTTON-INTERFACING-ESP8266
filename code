@@ -1,0 +1,59 @@
+
+int state();
+void setup(){
+  pinMode(D1,OUTPUT);
+  pinMode(D2,OUTPUT);
+  pinMode(D3,OUTPUT);
+  pinMode(D5,INPUT);
+}
+int x,t=0;
+void loop(){
+x=int state();
+  if (x==1)
+  {
+    t++;
+    if(t>4)
+    {
+      t=1;
+    }
+     if(t==1)
+    {
+      digitalWrite(D1,HIGH);
+      digitalWrite(D2,LOW);
+      digitalWrite(D3,LOW);
+      delay(100);
+    }
+    if(t==2)
+    {
+      digitalWrite(D2,HIGH);
+      digitalWrite(D1,LOW);
+      digitalWrite(D3,LOW);
+      delay(100);
+    }
+    if(t==3)
+    {
+      digitalWrite(D3,HIGH);
+      digitalWrite(D1,LOW);
+      digitalWrite(D2,LOW);
+      delay(100);
+    }
+    if(t==4)
+    {
+      digitalWrite(D1,LOW);
+      digitalWrite(D2,LOW);
+      digitalWrite(D3,LOW);
+      delay(100);
+    }
+}
+int state()
+{
+  int y=0;
+  while(digitalRead(D5)==0)
+  {
+    y=1;
+    delay(50);
+  }
+  return y;
+}
+
+ 
