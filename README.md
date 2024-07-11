@@ -1,4 +1,4 @@
-# RGB-PUSH-BUTTON-INTERFACING-ESP8266
+<p style="text-align:center"># RGB-PUSH-BUTTON-INTERFACING-ESP8266</p>
 
 ## AIM
 To blink different colors of RGB sensor by push button count
@@ -16,7 +16,7 @@ To blink different colors of RGB sensor by push button count
 
 ### RGB Sensor Module Pin Diagram
 
-<center>![rgb module](https://github.com/JubyJohn/RGB-PUSH-BUTTON-INTERFACING-ESP8266/assets/81866407/7bae2dd7-9795-493a-9625-d78daa90552b).</center>
+![rgb module](https://github.com/JubyJohn/RGB-PUSH-BUTTON-INTERFACING-ESP8266/assets/81866407/7bae2dd7-9795-493a-9625-d78daa90552b)
  
 
 <br>  - = Ground  ---->  GND
