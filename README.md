@@ -1,4 +1,4 @@
-<p style="text-align:center"># RGB-PUSH-BUTTON-INTERFACING-ESP8266</p>
+# RGB-PUSH-BUTTON-INTERFACING-ESP8266#center
 
 ## AIM
 To blink different colors of RGB sensor by push button count
