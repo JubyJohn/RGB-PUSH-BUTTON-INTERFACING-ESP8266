@@ -20,7 +20,7 @@ To blink different colors of RGB sensor by push button count
  
 
 - = Ground  ---->  GND
-       \n B   ---->  D2
+   <br> B   ---->  D2
         G   ---->  D1
         R   ---->  D0
 
