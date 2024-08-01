@@ -37,8 +37,17 @@ To blink different colors of RGB sensor by push button count
 ## PROCEDURE
 
 <br> Step 1 : Interface ESP8266 microcontroller to Arduino IDE using port.
-<br> Step 2: Interface ESP8266 microcontroller with push button and print the digital values on serial monitor.
+<br> Step 2 : Interface ESP8266 microcontroller with push button and print the digital values on serial monitor.
 <br> Step 3 : Interface ESP8266 microcontroller with RGB Sensor to blink red,green,blue light with delay.
 <br> Step 4 : Interface ESP8266 microcontroller with RGB Sensor and push button by modifying both the programs.
+
+
+## OUTPUT
+
+<br> When push button is pressed:
+<br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;          On first press, red light turned on
+<br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;          On second press, green light turned on
+<br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;          On third press, blue light turned on
+<br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;          On fourth press, rgb led turned off and the pattern repeated.
 
 
